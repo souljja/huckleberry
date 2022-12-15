@@ -9,4 +9,69 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+:root {
+  --granite: #666666;
+  --oxygen: #009966;
+  --dust: #999999;
+  --funchose: #FFFFFF;
+  --amber: #FFBF00;
+  --buddha: #CC9900;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+main {
+  background-color: var(--granite);
+  border-top: 8px solid var(--dust);
+}
+
+main, header {
+  padding: 64px 0;
+}
+
+strong {
+  color: var(--oxygen);
+}
+
+p {
+  margin: 16px 0;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 463px;
+  padding: 0 24px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 120%;
+  margin: 32px 0 48px;
+}
+
+.card {
+  padding: 24px;
+  background-color: var(--funchose);
+  border-bottom: 8px solid var(--dust);
+}
+
+.indented-heading {
+  line-height: 120%;
+  max-width: max-content;
+  padding: 16px 32px;
+  margin: -16px 0 0 -32px;
+  background-color: var(--amber);
+  border-bottom: 8px solid var(--buddha);
+}
