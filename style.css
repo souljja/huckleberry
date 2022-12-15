@@ -38,7 +38,7 @@ strong {
 }
 
 p {
-  margin: 16px 0;
+  margin: 1rem 0;
 }
 
 p:last-child {
@@ -58,7 +58,7 @@ p:last-child {
 .title {
   font-size: 2rem;
   line-height: 120%;
-  margin: 32px 0 48px;
+  margin: 2rem 0 3rem;
 }
 
 .card {
